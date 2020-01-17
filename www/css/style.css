@@ -1,0 +1,339 @@
+@font-face{
+    font-family: 'Roboto Slab';
+    src: url('../fonts/RobotoSlab-Bold.eot');
+    src: url('../fonts/RobotoSlab-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RobotoSlab-Bold.woff2') format('woff2'),
+        url('../fonts/RobotoSlab-Bold.woff') format('woff'),
+        url('../fonts/RobotoSlab-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+html{
+    font-size: 14px;
+}
+body{
+    padding-top: 75px;
+    margin: 0;
+}
+.clr:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+input{
+    margin: 0;
+}
+input,
+textarea{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-bottom: 65px;
+    font-size: 30px;
+    color: #1f222c;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+    margin-top: 0;
+}
+h2{
+    margin: 0 0 28px;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #b3b3b3;
+    font-family: "Roboto";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.wrapper{
+    margin: 0 100px;
+}
+.after-main,
+main,
+header{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #dcdcde;
+    margin-bottom: 50px;
+}
+.first-form{
+    width: 330px;
+}
+.text{
+    width: 330px;
+    height: 40px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #b3b3b3;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+.first-form input{
+    border-radius: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #c5c5d4;
+}
+select{
+    margin-bottom: 10px;
+    border: 1px solid #c5c5d4;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.about{
+    color: black;
+    padding: 0 15px;
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+}
+.select{
+    position: relative;
+}
+form .select:before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 9px;
+    right: 17px;
+    top: 5px;
+    background: url(../img/Rectangle\ 3.png) no-repeat;    z-index: 1;
+}
+.submit{
+    width: 330px;
+    height: 40px;
+    background-color: #12d661;
+    border: #12d661;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+    text-align: center;
+}
+textarea.texts{
+    border: 1px solid #c5c5d4;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 130px;
+    padding-top: 14px;
+    margin-bottom: 10px;
+    resize: vertical;
+    min-height: 130px;
+    max-height: 130px;
+}
+.seconde-form,
+.third-form{
+    float: left;
+}
+.seconde-form{
+    width: 166px;
+}
+.third-form{
+    width: 350px;
+}
+.third-form p,
+.seconde-form p{
+    margin: 0 0 20px 10px;
+}
+[type="radio"],
+[type="checkbox"]{
+    visibility: hidden;
+}
+.gender p label,
+.seconde-form label{
+    position: relative;
+}
+.seconde-form input+label:before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: -25px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0;
+}
+.seconde-form input:checked+label:before{
+    border-color: #3e6aff;
+}
+.third-form input:disabled+label:before,
+.seconde-form input:disabled+label:before{
+    background-color: #f7f7f7;
+}
+.seconde-form input:checked+label:after{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 4.5px;
+    left: -20px;
+    background-color: #3e6aff;
+    border-radius: 50%;
+}
+.seconde-form p label{
+    font-size: 14px;
+    color: #1f222c;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+.third-form p:last-child label,
+.seconde-form p:last-child label{
+    font-size: 14px;
+    color: #b3b3b3;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+.four-form label,
+.third-form label{
+    position: relative;
+}
+.four-form label:before,
+.third-form label:before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: -26px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+.four-form input:checked+label:before,
+.third-form input:checked+label:before{
+    border-color: #3e6aff;
+}
+.four-form input:checked+label:after,
+.third-form input:checked+label:after{
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 3px;
+    top: 5px;
+    left: -21px;
+    transform: rotate(-45deg);
+    border-bottom: 1.5px solid #244dd7;
+    border-left: 1.5px solid #244dd7;
+}
+.four-form{
+    width: 472px;
+    height: 112px;
+    float: right;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+.four-form p{
+    display: inline-block;
+    margin: 0;
+    margin-right: 34px;
+}
+.four-form .last,
+.four-form p:first-child{
+    font-size: 14px;
+    color: #b3b3b3;
+    font-family: "Roboto";
+    font-weight: 700;
+    padding: 24px 20px 16px;
+    box-sizing: border-box;
+    margin: 0;
+    margin-right: 14px;
+}
+.four-form .last{
+    padding: 16px 20px 24px;
+    margin-right: 16px;
+}
+.data-form label input{
+    width: 152px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    padding: 0 14px;
+    box-sizing: border-box;
+    padding: 9px;
+}
+.four-form .data-form label:before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    top: -3px;
+    left: 115px;
+    background-image: url(../img/Forma\ 1.png);
+    background-position: 0 0;
+    border: none;
+    border-radius: 0;
+}
+.first-form .files{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 37px 12px 38px;
+    border-radius: 3px;
+    background-color: #3e6aff;
+    box-sizing: border-box;
+    position: relative;
+}
+.file{
+    position: absolute;
+    visibility: hidden;
+    width: 171px;
+}
+.files{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.gender{
+    padding-left: 55px;
+}
+.gender p{
+    margin: 0;
+    padding: 35px 0;
+}
+.women,
+.men{
+    padding-left: 15px;
+}
+.gender .men input+label:before{
+    content: "";
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: -72px;
+    top: -28px;
+    background: url(../img/people.png) no-repeat;
+    background-position: 0 0;
+}
+.gender .women input+label:before{
+    content: "";
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: -72px;
+    top: -28px;
+    background: url(../img/people.png) no-repeat;
+    background-position: 0 -72px;
+}
+.gender .men input:checked+label:after{
+    content: "";
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: -72px;
+    top: -28px;
+    background: url(../img/people.png) no-repeat;
+    background-position: -72px 0;
+}
+.gender .women input:checked+label:after{
+    content: "";
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    left: -72px;
+    top: -28px;
+    background: url(../img/people.png) no-repeat;
+    background-position: -72px -72px;
+}
+.gender .men input:checked+label,
+.gender .women input:checked+label{
+    color: #3e6aff;
+}

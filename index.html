@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <link rel="stylesheet" href="www/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Форми</h1>
+        <header>
+            <div class="form">
+                <h2>01. проста форма</h2>
+                <form class="first-form">
+                    <label for="text">
+                        <input type="text" name="text" class="text" maxlength="31" placeholder="Введіть ім’я">
+                    </label>
+                    <label for="text">
+                        <input type="mail" name="mail" class="text" maxlength="35" placeholder="Email"> 
+                    </label>
+                    <label for="city" value="Ваше місто" class="select">
+                        <select name="city" class="about text" id="city">
+                            <option value="Ваше місто" class="about text">Ваше місто</option>
+                            <option value="Хмельницький" class="about text">Хмельницький</option>
+                            <option value="Київ"class="about text">Київ</option>
+                        </select>
+                    </label>
+                    <label for="texterea">
+                        <textarea name="text" id="about" class="texts text" maxlength="176" placeholder="Email"></textarea>
+                    </label>
+                    <Label for="batton">
+                        <input type="submit" class="submit" value="Зареєструватися">
+                    </Label>
+                </form>
+            </div>
+        </header>
+        <main>
+            <h2>02. елементи</h2>
+            <form class="clr">
+                <div class="seconde-form">
+                    <p>
+                        <input type="radio" name="radio" id="newpost" class="radio" checked>
+                        <label for="newpost">
+                            Нова Пошта
+                        </label>
+                        </p>
+                    <p>
+                        <input type="radio" name="radio" id="kurier" class="radio" checked>
+                        <label for="kurier">
+                            Кур’єр
+                        </label>
+                    </p>
+                    <p>
+                        <input type="radio" name="radio" id="go" class="radio" disabled>
+                        <label for="go">
+                            Самовивіз
+                        </label>
+                    </p>
+                </div>
+                <div class="third-form">
+                    <p>
+                        <input type="checkbox" name="checkbox" id="read" class="checkbox" checked>
+                        <label for="read">
+                            Прочитав умови договору
+                        </label>
+                        </p>
+                    <p>
+                        <input type="checkbox" name="checkbox" id="pdv" class="checkbox" checked>
+                        <label for="pdv">
+                            Згідний з ПДВ 9%
+                        </label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="checkbox" id="news" class="checkbox" disabled>
+                        <label for="news">
+                            Отримувати новини на ел. пошту
+                        </label>
+                    </p>
+                </div>
+                <div class="four-form">
+                    <p>
+                        Статус
+                    </p>
+                    <p>
+                        <input type="checkbox" name="checkbox" id="novetly" class="checkbox" checked>
+                        <label for="novetly">
+                            Новинки
+                        </label>
+                        </p>
+                    <p>
+                        <input type="checkbox" name="checkbox" id="stock" class="checkbox" checked>
+                        <label for="stock">
+                            Акційні товари
+                        </label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="checkbox" id="buys" class="checkbox" checked>
+                        <label for="buys">
+                            Розпродаж
+                        </label>
+                    </p><br>
+                    <p class="last">
+                        Дата
+                    </p>
+                    <span class="data-form">
+                        <label for="data">
+                            <input type="date" name="data" id="data" class="data">
+                        </label>
+                    </span>
+                </div>
+            </form>
+        </main>
+        <div class="after-main">
+            <h2>03. стилізовані чекбокси </h2>
+            <form class="five-form">
+                <div class="gender">
+                    <p class="men">
+                        <input type="radio" name="radio" id="men" class="radio" checked>
+                        <label for="men" class="men">
+                            Чоловік
+                        </label>
+                        </p>
+                    <p class="women">
+                        <input type="radio" name="radio" id="women" class="radio" checked>
+                        <label for="women" class="women">
+                            Жінка
+                        </label>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <input type="radio" name="radio" id="men" class="radio" checked>
+                        <label for="men">
+                            Отримувати новини
+                        </label>
+                        </p>
+                    <p>
+                        <input type="radio" name="radio" id="women" class="radio" checked>
+                        <label for="women">
+                            Купити додому ковбаси
+                        </label>
+                    </p>
+                    <p>
+                        <input type="radio" name="radio" id="women" class="radio" checked>
+                        <label for="women">
+                            Включити світло
+                        </label>
+                    </p>
+                </div>
+            </form>
+        </div>
+        <div>
+            <h2>04. форма таблицею</h2>
+            <p>Заповніть усі необхідні поля</p>
+            <div>
+                <p>ФІО:</p>
+                <p>Пароль:</p>
+                <p>Місто:</p>
+                <p>Стать:</p>
+                <p>Фото:</p>
+                <p>Коментарій:</p>
+            </div>
+            <div>
+                <form class="first-form">
+                    <label for="text">
+                        <input type="text" name="text" class="text" maxlength="31" placeholder="Введіть ім’я">
+                    </label>
+                    <label for="text">
+                        <input type="mail" name="mail" class="text" maxlength="35" placeholder="Email"> 
+                    </label>
+                    <label for="city" value="Ваше місто" class="select">
+                        <select name="city" class="about text" id="city">
+                            <option value="Ваше місто" class="about text">Ваше місто</option>
+                            <option value="Хмельницький" class="about text">Хмельницький</option>
+                            <option value="Київ"class="about text">Київ</option>
+                        </select>
+                    </label>
+                    <p>
+                        <input type="radio" name="radio" id="men" class="radio" checked>
+                            <label for="men">
+                                Чоловік
+                            </label>
+                    </p>
+                    <p>
+                        <input type="radio" name="radio" id="men" class="radio" checked>
+                            <label for="men">
+                                Жінка
+                            </label>
+                    </p>
+                    <label for="files" class="files">
+                        <input type="file" name="file" id="files" class="file">
+                        Виберіть файл
+                    </label>
+                    <label for="texterea">
+                        <textarea name="text" id="about" class="texts text" maxlength="176" placeholder="Введіть текст повідомлення"></textarea>
+                    </label>
+                    <Label for="batton">
+                        <input type="submit" class="submit" value="Зареєструватися">
+                    </Label>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
