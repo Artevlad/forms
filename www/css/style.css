@@ -8,6 +8,27 @@
     font-weight: bold;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.eot');
+    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff'),
+        url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 html{
     font-size: 14px;
 }
@@ -66,12 +87,12 @@ header{
     width: 330px;
 }
 .text{
-    width: 330px;
-    height: 40px;
+    width: 100%;
+    padding: 11px 15px;
 }
 footer input,
 .text{
-    padding-left: 15px;
+    padding: 11px 15px;
     font-size: 14px;
     color: #b3b3b3;
     font-family: "Roboto";
@@ -95,7 +116,6 @@ select{
 }
 .about{
     color: black;
-    padding: 0 15px;
     -webkit-appearance: none;
     appearance: none;
     position: relative;
@@ -113,8 +133,8 @@ form .select:before{
     background: url(../img/Rectangle\ 3.png) no-repeat;    z-index: 1;
 }
 .submit{
-    width: 330px;
-    height: 40px;
+    width: 100%;
+    padding: 11px 15px;
     background-color: #12d661;
     border: #12d661;
     font-size: 14px;
@@ -122,13 +142,14 @@ form .select:before{
     font-family: "Roboto";
     font-weight: 700;
     text-align: center;
+    border: none;
 }
 textarea.texts{
     border: 1px solid #c5c5d4;
     box-sizing: border-box;
     border-radius: 3px;
     height: 130px;
-    padding-top: 14px;
+    padding: 14px 15px 10px;
     margin-bottom: 10px;
     resize: vertical;
     min-height: 130px;
@@ -410,13 +431,19 @@ textarea.texts{
     font-family: "Roboto";
     font-weight: 400;
 }
+.first-forms,
+.ff{
+    width: 500px;
+}
 .first-text p{
-    width: 78px;
-    padding-right: 80px;
+    width: 158px;
     font-size: 14px;
     color: #1f222c;
     font-family: "Roboto";
     font-weight: 400;
+}
+.first-text{
+    width: 160px;
 }
 .koment{
     padding-top: 0;
@@ -600,4 +627,7 @@ footer span{
     position: fixed;
     top: 177px;
     right: 102px;
+}
+.footer-menu .fm-td input{
+    width: 450px;
 }
