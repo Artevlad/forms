@@ -157,7 +157,7 @@ textarea.texts{
     margin-bottom: 10px;
     resize: vertical;
     min-height: 130px;
-    max-height: 130px;
+    max-height: 150px;
 }
 .seconde-form,
 .third-form{
@@ -619,6 +619,7 @@ footer span{
     border-radius: 3px;
     background-color: #ffffff;
     border: 1px solid #cccccc;
+    padding: 0 15px;
 }
 .last-menu p:first-child{
     padding-top: 40px;
@@ -643,7 +644,7 @@ footer span{
 .fixed{
     position: fixed;
     top: 177px;
-    right: 102px;
+    right: 100px;
 }
 .footer-menu .fm-td input{
     width: 450px;
