@@ -75,6 +75,7 @@ h3{
 }
 .wrapper{
     margin: 0 100px;
+    width: 86.97%;
 }
 .four-table,
 .after-main,
@@ -110,6 +111,11 @@ footer input,
 .first-form .first-form-label input{
     border: none;
 }
+.first-form-label input:hover{
+    background-color: #52CA5C;
+    filter: drop-shadow(0px 5px 6px rgba(0,0,0,0.15));
+    cursor: pointer;
+}
 select{
     border: 1px solid #c5c5d4;
     box-sizing: border-box;
@@ -123,6 +129,9 @@ select{
     -webkit-appearance: none;
     appearance: none;
     position: relative;
+}
+.about option:disabled{
+    display: none;
 }
 .select{
     position: relative;
@@ -342,6 +351,11 @@ textarea.texts{
     display: inline-block;
     margin-bottom: 10px;
 }
+.first-forms .hov:hover{
+    background-color: #2857f4;
+    filter: drop-shadow(0px 5px 6px rgba(0,0,0,0.15));
+    cursor: pointer;
+}
 .gender{
     width: 275px;
     float: left;
@@ -557,6 +571,11 @@ footer span{
     font-family: "Roboto";
     font-weight: 700;
 }
+.baton:hover{
+    background-color: #84868d;
+    color: white;
+    cursor: pointer;
+}
 .last-form{
     display: block;
     width: 680px;
@@ -591,6 +610,9 @@ footer span{
     margin: 0;
     padding-right: 25px;
     padding-left: 25px;
+}
+.third-p-lt-mn a:hover{
+    text-decoration: underline;
 }
 .last-menu a{
     font-size: 13px;
@@ -644,7 +666,8 @@ footer span{
 .fixed{
     position: fixed;
     top: 177px;
-    right: 100px;
+    right: 6.493%;
+    z-index: 10;
 }
 .footer-menu .fm-td input{
     width: 450px;
