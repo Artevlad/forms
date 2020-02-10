@@ -16,10 +16,10 @@
             <div class="form">
                 <h2>01. проста форма</h2>
                 <form class="first-form">
-                    <label for="text">
+                    <label>
                         <input type="text" name="text" class="text" maxlength="31" placeholder="Введіть ім’я">
                     </label>
-                    <label for="text">
+                    <label>
                         <input type="mail" name="mail" class="text" maxlength="35" placeholder="Email">
                     </label>
                     <label for="city" value="Ваше місто" class="select">
@@ -179,7 +179,7 @@
                                     <p>Пароль:</p>
                                 </td>
                                 <td>
-                                    <label for="text">
+                                    <label>
                                         <input type="mail" name="mail" class="text" maxlength="35" placeholder="Введіть не менше 6 символів">
                                     </label>
                                 </td>
@@ -189,8 +189,8 @@
                                     <p>Місто:</p>
                                 </td>
                                 <td>
-                                    <label for="city" value="Ваше місто" class="select">
-                                        <select name="city" class="about text" id="city">
+                                    <label for="citys" value="Ваше місто" class="select">
+                                        <select name="city" class="about text" id="citys">
                                             <option value="Ваше місто" class="about text" selected disabled>Ваше місто</option>
                                             <option value="Хмельницький" class="about text">Хмельницький</option>
                                             <option value="Київ" class="about text">Київ</option>
@@ -222,7 +222,7 @@
                                     <p>Фото:</p>
                                 </th>
                                 <th>
-                                    <label for="files" class="files hov">
+                                    <label class="files hov">
                                         <input type="file" name="file" id="files" class="file">
                                         Виберіть файл
                                     </label>
@@ -288,16 +288,16 @@
                             <span>Країна</span>
                             <label for="footer-city" value="Ваше місто" class="select">
                                 <select name="footer-city" class="about text footer-city" id="footer-city">
-                                    <option value="Ваше місто" class="about text" selected disabled>Ваше місто</option>
-                                    <option value="Хмельницький" class="about text">Хмельницький</option>
-                                    <option value="Київ" class="about text">Київ</option>
+                                    <option value="Ваше місто" class="about text" selected disabled>Ваше країна</option>
+                                    <option value="Хмельницький" class="about text">Україна</option>
+                                    <option value="Київ" class="about text">Шрі-Ланка</option>
                                 </select>
                             </label>
                         </td>
                         <td class="fm-td">
                             <span>Адреса</span>
-                            <label for="text">
-                                <input type="text" name="text" id="text" class="footer-text">
+                            <label>
+                                <input type="text" name="text" class="footer-text">
                             </label>
                         </td>
                     </tr>
