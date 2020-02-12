@@ -22,18 +22,17 @@
                     <label>
                         <input type="mail" name="mail" class="text" maxlength="35" placeholder="Email">
                     </label>
-                    <label for="city" value="Ваше місто" class="select">
-                        <select name="city" class="about text abouts" id="city">
+                    <label value="Ваше місто" class="select">
+                        <select name="city" class="about text abouts">
                             <option value="Ваше місто" class="about text" selected disabled>Ваше місто</option>
                             <option value="Хмельницький" class="about text">Хмельницький</option>
                             <option value="Київ" class="about text">Київ</option>
                         </select>
                     </label>
-                    <label for="texterea">
-                        <textarea name="text" id="about" class="texts text" maxlength="176"
-                            placeholder="Пишіть"></textarea>
+                    <label>
+                        <textarea name="text" class="texts text" maxlength="176" placeholder="Пишіть"></textarea>
                     </label>
-                    <Label for="batton" class="first-form-label">
+                    <Label class="first-form-label">
                         <input type="submit" class="submit" value="Зареєструватися">
                     </Label>
                 </form>
@@ -108,8 +107,8 @@
                         Дата
                     </p>
                     <span class="data-form">
-                        <label for="data">
-                            <input type="date" name="data" id="data" class="data">
+                        <label>
+                            <input type="date" name="data" class="data">
                         </label>
                     </span>
                 </div>
@@ -166,9 +165,8 @@
                                     <p>ФІО:</p>
                                 </td>
                                 <td>
-                                    <label for="text">
-                                        <input type="text" name="text" class="text" maxlength="31"
-                                            placeholder="Введіть ім’я">
+                                    <label>
+                                        <input type="text" name="text" class="text" maxlength="31" placeholder="Введіть ім’я">
                                     </label>
                                 </td>
                             </tr>
@@ -189,9 +187,10 @@
                                     <p>Місто:</p>
                                 </td>
                                 <td>
-                                    <label for="citys" value="Ваше місто" class="select">
-                                        <select name="city" class="about text" id="citys">
-                                            <option value="Ваше місто" class="about text" selected disabled>Ваше місто</option>
+                                    <label value="Ваше місто" class="select">
+                                        <select name="city" class="about text">
+                                            <option value="Ваше місто" class="about text" selected disabled>Ваше місто
+                                            </option>
                                             <option value="Хмельницький" class="about text">Хмельницький</option>
                                             <option value="Київ" class="about text">Київ</option>
                                         </select>
@@ -223,19 +222,18 @@
                                 </th>
                                 <th>
                                     <label class="files hov">
-                                        <input type="file" name="file" id="files" class="file">
+                                        <input type="file" name="file" class="file">
                                         Виберіть файл
                                     </label>
                                 </th>
                             </tr>
                             <tr>
                                 <th class="first-text koment">
-                                    <p>Коментарій:</p>
+                                    <label for="textar">Коментарій:</label>
                                 </th>
                                 <th>
-                                    <label for="about">
-                                        <textarea name="text" id="about" class="text texts textes" maxlength="176"
-                                            placeholder="Введіть текст повідомлення"></textarea>
+                                    <label>
+                                        <textarea name="text" class="text texts textes" id="textar" maxlength="176" placeholder="Введіть текст повідомлення"></textarea>
                                     </label>
                                 </th>
                             </tr>
@@ -244,7 +242,7 @@
                                     &nbsp;
                                 </th>
                                 <th>
-                                    <Label for="batton" class="first-form-label">
+                                    <Label class="first-form-label">
                                         <input type="submit" class="submit" value="Зареєструватися">
                                     </Label>
                                 </th>
@@ -255,98 +253,101 @@
             </div>
         </div>
         <footer>
-            <h2>05. форма таблицею</h2>
-            <h3>Оформлення заявки</h3>
-            <div class="first-footer">
-                <table>
-                    <tr>
-                        <td>
-                            <span>Прізвище та ім’я</span>
-                            <input type="text" name="text">
-                            <label for="text">
-                            </label>
-                        </td>
-                        <td>
-                            <span>Ел. пошта</span>
-                            <input type="mail" name="mail" class="mail">
-                            <label for="mail">
-                            </label>
-                        </td>
-                        <td>
-                            <span>Телефон</span>
-                            <input type="text" name="text" class="telefon">
-                            <label for="text" class="footer-label">
-                            </label>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div class="second-footer">
-                <table class="footer-menu">
-                    <tr>
-                        <td>
-                            <span>Країна</span>
-                            <label for="footer-city" value="Ваше місто" class="select">
-                                <select name="footer-city" class="about text footer-city" id="footer-city">
-                                    <option value="Ваше місто" class="about text" selected disabled>Ваше країна</option>
-                                    <option value="Хмельницький" class="about text">Україна</option>
-                                    <option value="Київ" class="about text">Шрі-Ланка</option>
-                                </select>
-                            </label>
-                        </td>
-                        <td class="fm-td">
-                            <span>Адреса</span>
-                            <label>
-                                <input type="text" name="text" class="footer-text">
-                            </label>
-                        </td>
-                    </tr>
-                </table>
-                <table class="footer-menus">
-                    <tr>
-                        <td>
-                            <span>Місто</span>
-                            <input type="text" name="text">
-                            <label for="text">
-                            </label>
-                        </td>
-                        <td>
-                            <span>Будинок</span>
-                            <input type="mail" name="mail" class="mail">
-                            <label for="mail">
-                            </label>
-                        </td>
-                        <td>
-                            <span>Поштовий індекс</span>
-                            <input type="text" name="text" class="telefon">
-                            <label for="text" class="footer-label">
-                            </label>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div class="third-form menu-footer">
-                <p class="last-footer-p">
-                    <input type="checkbox" name="checkbox" id="for" class="checkbox">
-                    <label for="for" class="ok">
-                        Я погоджуюсь з правилами оплати та доставки товару
-                    </label>
-                </p>
-            </div>
-            <div class="last-form clr">
-                <form>
-                    <div class="first-last-form">
-                        <Label for="batton">
-                            <input type="submit" class="baton" value="Повернутися назад">
-                        </Label>
-                    </div>
-                    <div class="second-last-form">
-                        <Label for="batton" class="first-form-label">
-                            <input type="submit" class="baton second-baton" value="Оформити покупку">
-                        </Label>
-                    </div>
-                </form>
-            </div>
+            <form>
+                <h2>05. форма таблицею</h2>
+                <h3>Оформлення заявки</h3>
+                <div class="first-footer">
+                    <table>
+                        <tr>
+                            <td>
+                                <span>Прізвище та ім’я</span>
+                                <input type="text" name="text">
+                                <label for="text">
+                                </label>
+                            </td>
+                            <td>
+                                <span>Ел. пошта</span>
+                                <input type="mail" name="mail" class="mail">
+                                <label for="mail">
+                                </label>
+                            </td>
+                            <td>
+                                <span>Телефон</span>
+                                <input type="text" name="text" class="telefon">
+                                <label for="text" class="footer-label">
+                                </label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="second-footer">
+                    <table class="footer-menu">
+                        <tr>
+                            <td>
+                                <span>Країна</span>
+                                <label value="Ваше місто" class="selects">
+                                    <select name="footer-city" class="about text footer-city">
+                                        <option value="Ваше місто" class="about text" selected disabled>Ваше країна
+                                        </option>
+                                        <option value="Хмельницький" class="about text">Україна</option>
+                                        <option value="Київ" class="about text">Шрі-Ланка</option>
+                                    </select>
+                                </label>
+                            </td>
+                            <td class="fm-td">
+                                <span>Адреса</span>
+                                <label>
+                                    <input type="text" name="text" class="footer-text">
+                                </label>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="footer-menus">
+                        <tr>
+                            <td>
+                                <span>Місто</span>
+                                <input type="text" name="text">
+                                <label for="text">
+                                </label>
+                            </td>
+                            <td>
+                                <span>Будинок</span>
+                                <input type="mail" name="mail" class="mail">
+                                <label for="mail">
+                                </label>
+                            </td>
+                            <td>
+                                <span>Поштовий індекс</span>
+                                <input type="text" name="text" class="telefon">
+                                <label for="text" class="footer-label">
+                                </label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="third-form menu-footer">
+                    <p class="last-footer-p">
+                        <input type="checkbox" name="checkbox" id="for" class="checkbox">
+                        <label for="for" class="ok">
+                            Я погоджуюсь з правилами оплати та доставки товару
+                        </label>
+                    </p>
+                </div>
+                <div class="last-form clr">
+                    <form>
+                        <div class="first-last-form">
+                            <Label>
+                                <input type="submit" class="baton" value="Повернутися назад">
+                            </Label>
+                        </div>
+                        <div class="second-last-form">
+                            <Label class="first-form-label">
+                                <input type="submit" class="baton second-baton" value="Оформити покупку">
+                            </Label>
+                        </div>
+                    </form>
+                </div>
+            </form>
         </footer>
         <div class="fixed">
             <h2>
@@ -378,7 +379,7 @@
                         </label>
                     </p>
                     <p>
-                        <Label for="batton" class="first-form-label">
+                        <Label class="first-form-label">
                             <input type="submit" class="baton second-baton bat" value="Увійти">
                         </Label>
                     </p>

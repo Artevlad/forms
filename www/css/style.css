@@ -121,6 +121,9 @@ select{
     box-sizing: border-box;
     border-radius: 3px;
 }
+.select{
+    display: block;
+}
 .abouts{
     margin-bottom: 10px;
 }
@@ -140,9 +143,18 @@ form .select:before{
     content: "";
     position: absolute;
     width: 10px;
-    height: 9px;
-    right: 17px;
-    top: 5px;
+    height: 10px;
+    right: 18px;
+    top: 17px;
+    background: url(../img/Rectangle\ 3.png) no-repeat;    z-index: 1;
+}
+form .selects:before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 27px;
+    top: 17px;
     background: url(../img/Rectangle\ 3.png) no-repeat;    z-index: 1;
 }
 .submit{
