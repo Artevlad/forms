@@ -276,6 +276,7 @@ textarea.texts{
     left: 0;
     border-radius: 3px;
     border: 1px solid #ccc;
+    background-color: white;
 }
 .last-menu .four-p-lt-mn input:checked+label:before,
 .four-form input:checked+label:before,
