@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
@@ -17,20 +17,20 @@
                 <h2>01. проста форма</h2>
                 <form class="first-form">
                     <label>
-                        <input type="text" name="text" class="text" maxlength="31" placeholder="Введіть ім’я">
+                        <input type="text" name="input-mail" class="text" maxlength="31" placeholder="Введіть ім’я">
                     </label>
                     <label>
-                        <input type="mail" name="mail" class="text" maxlength="35" placeholder="Email">
+                        <input type="mail" name="input-mail" class="text" maxlength="35" placeholder="Email">
                     </label>
-                    <label value="Ваше місто" class="select">
-                        <select name="city" class="about text abouts">
+                    <label for="sel" class="select">
+                        <select name="city" class="about text abouts" id="sel">
                             <option value="Ваше місто" class="about text" selected disabled>Ваше місто</option>
                             <option value="Хмельницький" class="about text">Хмельницький</option>
                             <option value="Київ" class="about text">Київ</option>
                         </select>
                     </label>
                     <label>
-                        <textarea name="text" class="texts text" maxlength="176" placeholder="Пишіть"></textarea>
+                        <textarea name="texterea-text" class="texts text" maxlength="176" placeholder="Пишіть"></textarea>
                     </label>
                     <Label class="first-form-label">
                         <input type="submit" class="submit" value="Зареєструватися">
@@ -162,11 +162,11 @@
                         <thead>
                             <tr>
                                 <td class="first-text">
-                                    <p>ФІО:</p>
+                                    <label for="fio">ФІО:</label>
                                 </td>
                                 <td>
                                     <label>
-                                        <input type="text" name="text" class="text" maxlength="31" placeholder="Введіть ім’я">
+                                        <input type="text" name="input-text" class="text" id="fio" maxlength="31" placeholder="Введіть ім’я">
                                     </label>
                                 </td>
                             </tr>
@@ -174,21 +174,21 @@
                         <t>
                             <tr>
                                 <td class="first-text">
-                                    <p>Пароль:</p>
+                                    <label for="pass">Пароль:</label>
                                 </td>
                                 <td>
                                     <label>
-                                        <input type="mail" name="mail" class="text" maxlength="35" placeholder="Введіть не менше 6 символів">
+                                        <input type="mail" name="input-mail" class="text" id="pass" maxlength="35" placeholder="Введіть не менше 6 символів">
                                     </label>
                                 </td>
                             </tr>
                             <tr>
                                 <td class="first-text">
-                                    <p>Місто:</p>
+                                    <label for="city">Місто:</label>
                                 </td>
                                 <td>
                                     <label value="Ваше місто" class="select">
-                                        <select name="city" class="about text">
+                                        <select name="city" class="about text" id="city">
                                             <option value="Ваше місто" class="about text" selected disabled>Ваше місто
                                             </option>
                                             <option value="Хмельницький" class="about text">Хмельницький</option>
@@ -199,7 +199,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <p>Стать:</p>
+                                    <label>Стать:</label>
                                 </td>
                                 <td class="people">
                                     <p class="mens four-form-p">
@@ -218,11 +218,11 @@
                             </tr>
                             <tr>
                                 <th class="first-text">
-                                    <p>Фото:</p>
+                                    <label for="foto">Фото:</label>
                                 </th>
                                 <th>
                                     <label class="files hov">
-                                        <input type="file" name="file" class="file">
+                                        <input type="file" name="file" class="file" id="foto">
                                         Виберіть файл
                                     </label>
                                 </th>
@@ -233,7 +233,7 @@
                                 </th>
                                 <th>
                                     <label>
-                                        <textarea name="text" class="text texts textes" id="textar" maxlength="176" placeholder="Введіть текст повідомлення"></textarea>
+                                        <textarea name="texterea-text" class="text texts textes" id="textar" maxlength="176" placeholder="Введіть текст повідомлення"></textarea>
                                     </label>
                                 </th>
                             </tr>
@@ -261,19 +261,19 @@
                         <tr>
                             <td>
                                 <span>Прізвище та ім’я</span>
-                                <input type="text" name="text">
+                                <input type="text" name="input-text">
                                 <label for="text">
                                 </label>
                             </td>
                             <td>
                                 <span>Ел. пошта</span>
-                                <input type="mail" name="mail" class="mail">
+                                <input type="mail" name="input-mail" class="mail">
                                 <label for="mail">
                                 </label>
                             </td>
                             <td>
                                 <span>Телефон</span>
-                                <input type="text" name="text" class="telefon">
+                                <input type="text" name="input-text" class="telefon">
                                 <label for="text" class="footer-label">
                                 </label>
                             </td>
@@ -297,7 +297,7 @@
                             <td class="fm-td">
                                 <span>Адреса</span>
                                 <label>
-                                    <input type="text" name="text" class="footer-text">
+                                    <input type="text" name="input-text" class="footer-text">
                                 </label>
                             </td>
                         </tr>
@@ -306,19 +306,19 @@
                         <tr>
                             <td>
                                 <span>Місто</span>
-                                <input type="text" name="text">
+                                <input type="text" name="input-text">
                                 <label for="text">
                                 </label>
                             </td>
                             <td>
                                 <span>Будинок</span>
-                                <input type="mail" name="mail" class="mail">
+                                <input type="mail" name="input-mail" class="mail">
                                 <label for="mail">
                                 </label>
                             </td>
                             <td>
                                 <span>Поштовий індекс</span>
-                                <input type="text" name="text" class="telefon">
+                                <input type="text" name="input-text" class="telefon">
                                 <label for="text" class="footer-label">
                                 </label>
                             </td>
@@ -357,13 +357,13 @@
                 <form>
                     <p>
                         <span class="special-span">Логін</span>
-                        <input type="text" name="text" class="lt-mn" maxlength="31">
+                        <input type="text" name="input-text" class="lt-mn" maxlength="31">
                         <label for="text" class="lt-lb">
                         </label>
                     </p>
                     <p class="seconde-p-lt-mn">
                         <span>Пароль</span>
-                        <input type="password" name="text" class="lt-mn" maxlength="31">
+                        <input type="password" name="input-text" class="lt-mn" maxlength="31">
                         <label for="text" class="lt-lb">
                         </label>
                     </p>
