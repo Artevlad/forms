@@ -361,7 +361,7 @@ textarea.texts{
     font-family: "Roboto";
     font-weight: 700;
     text-align: center;
-    padding: 16px 37px 12px 38px;
+    padding: 12px 37px 12px 38px;
     border-radius: 3px;
     background-color: #3e6aff;
     box-sizing: border-box;
@@ -551,6 +551,7 @@ footer span{
     position: absolute;
     margin: 0;
     top: -20px;
+    left: 0;
     font: 400 13px "Roboto";
     color: #b3b3b3;
 }
@@ -651,6 +652,7 @@ footer span{
     position: absolute;
     margin: 0;
     top: -20px;
+    left: 25px;
     font: 400 13px "Roboto";
     color: #b3b3b3;
 }
@@ -658,6 +660,7 @@ footer span{
     position: absolute;
     margin: 0;
     top: 20px;
+    left: 25px;
     font: 400 13px "Roboto";
     color: #b3b3b3;
 }
