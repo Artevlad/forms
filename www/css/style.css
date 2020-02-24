@@ -133,6 +133,7 @@ select{
     border: 1px solid #c5c5d4;
     box-sizing: border-box;
     border-radius: 3px;
+    background-color: #ffffff;
 }
 .select{
     display: block;
